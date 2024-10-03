@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 
 orders = pd.read_csv('orders_dataset.csv')
+order_items = pd.read_csv('order_items_dataset.csv')
 products = pd.read_csv('products_dataset.csv')
 product_translation = pd.read_csv('product_category_name_translation.csv')
 
